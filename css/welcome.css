@@ -1,0 +1,43 @@
+#clock {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+input {
+  all: unset;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#login-form {
+  margin: 2vh 0;
+}
+
+#login-input {
+  width: 200px;
+  padding: 5px;
+  height: 20px;
+  border-bottom: 2px solid black;
+}
+
+#login-submit {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-submit:hover {
+  cursor: pointer;
+}
+
+#greeting {
+  font-size: 1.56em;
+  font-weight: 500;
+  margin: 2vh 0;
+}

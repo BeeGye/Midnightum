@@ -1,0 +1,43 @@
+#quote {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Trispace", "Nanum Gothic", sans-serif;
+  margin-right: 20%;
+}
+
+#quote span:first-child {
+  font-size: 25px;
+}
+
+#quote span:last-child {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+#weather {
+  width: 230px;
+  height: 230px;
+  border-radius: 25px;
+  background: linear-gradient(#3388ff, #77ccff);
+  padding: 23px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#weather span:nth-child(1) {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+#weather span:nth-child(2) {
+  font-size: 45px;
+  margin-bottom: 80px;
+}
+
+#weather span:nth-child(4) {
+  margin-top: 6px;
+}

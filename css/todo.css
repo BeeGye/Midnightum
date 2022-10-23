@@ -1,0 +1,43 @@
+#todo-form {
+  margin-top: 5vh;
+}
+
+#todo-question {
+  font-size: 1.35em;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  width: 220px;
+  padding: 5px;
+  height: 20px;
+  border-bottom: 2px solid black;
+}
+
+#todo-list {
+  margin-top: 10px;
+}
+
+#todo-list li {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+#todo-list span {
+  font-size: 16px;
+}
+
+#todo-list button {
+  border: none;
+  font-size: 20px;
+  background: none;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+#todo-list button:hover {
+  cursor: pointer;
+}

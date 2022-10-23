@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Nanum+Gothic&family=Trispace&display=swap");
+@import "reset.css";
+
+/** components */
+@import "welcome.css";
+@import "todo.css";
+@import "excessinfo.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: "Inter Tight", "Nanum Gothic", sans-serif;
+  height: 100vh;
+  margin: 10% 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget {
+  width: 33%;
+}
+
+.widget:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
